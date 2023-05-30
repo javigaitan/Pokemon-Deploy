@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from "./store/index";
 import axios from "axios"
 
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "pokemon-deploy-production-14af.up.railway.app";
 
 ReactDOM.render(
   
