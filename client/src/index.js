@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from "./store/index";
 import axios from "axios"
 
-axios.defaults.baseURL = "https://pokemon-deploy-production-14af.up.railway.app/";
+axios.defaults.baseURL = "https://pokemon-api-c5ka.onrender.com";
 
 ReactDOM.render(
   
