@@ -8,9 +8,7 @@ import CreatePokemon from './components/CreatePokemon/CreatePokemon'
 import LandingPage from './components/Landing/LandingPage';
 import Home from './components/Home/Home';
 import {PokeDetail} from './components/PokeDetail/PokeDetail';
-import axios from 'axios';
 
-axios.defaults.baseURL = "https://pokemon-deploy-production-14af.up.railway.app/";
 
 function App() {
   return (
