@@ -11,6 +11,7 @@ export const FILTER_ORDER = "FILTER_ORDER";
 export const FILTER_TYPE = "FILTER_TYPE";
 export const GET_TYPE = "GET_TYPE";
 export const POST_POKEMON = "POST_POKEMON";
+export const DELETE_POKEMON = 'DELETE_POKEMON'
 
 export const PostPokemon = (data) => async (dispatch) => {
   try {
