@@ -24,6 +24,15 @@ export const PostPokemon = (data) => async (dispatch) => {
   }
 };
 
+export const DeletePokemon = (id) => async (dispatch) => {
+  try{
+    await axios.delete(`/pokemons/${id}`);
+    dispatch({type: DELETE_POKEMON, payload:id});
+  }catch (error){
+    console.log(error.message);
+  }
+};
+
 export const GetPokemons = () => async (dispatch) => {
   try {
     const res = await axios.get("/pokemons");
