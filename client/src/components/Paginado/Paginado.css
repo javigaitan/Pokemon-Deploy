@@ -22,3 +22,8 @@
     background-color: var(--color-orange);
     color: var(--color-blue);
   }
+
+  .button-pag.active {
+    background-color: var(--color-orange);
+    color: var(--color-blue);
+  }
